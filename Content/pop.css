@@ -1,0 +1,32 @@
+﻿    .container, .imageDiv {
+        text-align: center;
+       
+    }
+	.imageDiv img
+	{
+	border: 1px solid black;
+	}
+	
+	
+    .btn {
+        margin-top:30px;
+        margin-bottom:30px;
+    }
+.fa {
+    margin:0px 5px;
+}
+    @media print {
+        body * {
+            visibility: hidden;
+        }
+
+        .imageDiv, .imageDiv * {
+            visibility: visible;
+        }
+
+        .imageDiv {
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+    }
